@@ -42,6 +42,14 @@ class MyDocument extends Document {
           <link rel="manifest" href="/favicon/site.webmanifest" />
         </Head>
         <body>
+          {/* Add Blogs Button */}
+          <header>
+            <nav>
+              <a href="/blog" style={{ margin: '10px', fontSize: '18px', color: 'blue', textDecoration: 'none' }}>
+                Blogs
+              </a>
+            </nav>
+          </header>
           <Main />
           <NextScript />
         </body>
